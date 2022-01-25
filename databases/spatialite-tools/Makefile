@@ -16,7 +16,7 @@ LIB_DEPENDS=	libgeos_c.so:graphics/geos \
 		libreadosm.so:astro/readosm
 
 GNU_CONFIGURE=	yes
-USES=		gmake gnome iconv minizip:ng pkgconfig sqlite
+USES=		gmake gnome iconv minizip pkgconfig sqlite
 USE_GNOME=	libxml2
 
 CFLAGS+=	-I${LOCALBASE}/include
