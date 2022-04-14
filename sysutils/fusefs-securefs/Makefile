@@ -17,7 +17,6 @@ USES=		cmake compiler:c++11-lang fuse
 LDFLAGS+=	-L${LOCALBASE}/lib -lutf8proc -ljsoncpp
 USE_GITHUB=	yes
 GH_ACCOUNT=	netheril96
-PLIST_FILES=	bin/securefs
 
 post-patch:
 	${REINPLACE_CMD} "s|@GIT_VERSION@|${PORTVERSION}|" ${WRKSRC}/sources/git-version.cpp.in
