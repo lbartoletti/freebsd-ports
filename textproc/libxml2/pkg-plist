@@ -57,9 +57,9 @@ lib/libxml2.so.2
 lib/libxml2.so.%%LIBVERSION%%
 lib/xml2Conf.sh
 libdata/pkgconfig/libxml-2.0.pc
-man/man1/xmlcatalog.1.gz
-man/man1/xmllint.1.gz
-man/man3/libxml.3.gz
+share/man/man1/xmlcatalog.1.gz
+share/man/man1/xmllint.1.gz
+share/man/man3/libxml.3.gz
 share/aclocal/libxml.m4
 %%PORTDOCS%%%%DOCSDIR%%/APIchunk0.html
 %%PORTDOCS%%%%DOCSDIR%%/APIchunk1.html
