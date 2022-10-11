@@ -21,7 +21,8 @@ LIB_DEPENDS=	libboost_thread.so:devel/boost-libs \
 		libpixman-1.so:x11/pixman \
 		libpng.so:graphics/png \
 		libcurl.so:ftp/curl \
-		libGLEW-wayland.so:graphics/glew-wayland
+		libGLEW-wayland.so:graphics/glew-wayland \
+		libodbc.so:databases/unixODBC
 
 CONFLICTS_INSTALL=	kicad # bin/_cvpcb.kiface
 
@@ -39,7 +40,7 @@ GL_ACCOUNT=	kicad/code
 GL_PROJECT=	kicad
 GL_COMMIT=	${GIT_SRC_HASH}
 USE_GL=		gl glew glu glut
-USE_WX=		3.1
+USE_WX=		3.2
 WX_COMPS=	wx python:lib
 USE_GNOME=	atk cairo	# Required by libwx_gtk2_aui-2.8.so
 USE_XORG+=	ice pixman x11 xext
