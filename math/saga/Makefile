@@ -36,7 +36,7 @@ USES=		cmake compiler:c++11-lib dos2unix gnome \
 		iconv:wchar_t libtool localbase pkgconfig python
 DOS2UNIX_GLOB=	*.cpp *.h
 USE_LDCONFIG=	yes
-USE_WX=		3.1+
+USE_WX=		3.2+
 
 CMAKE_ARGS+=	-DSVM_INCLUDE:PATH=${LOCALBASE}/include/svm.h
 CMAKE_ON=	WITH_DEV_TOOLS WITH_EXCERCISES WITH_MRMR WITH_SYSTEM_SVM
