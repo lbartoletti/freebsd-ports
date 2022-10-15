@@ -86,7 +86,7 @@ SHARING_CONFIGURE_ENABLE=	sharing-preserving
 WX_USES=			gl
 WX_CONFIGURE_WITH=		wx-config=${WX_CONFIG}
 WX_VARS=			USE_GL="gl glu" \
-				USE_WX=3.1+ \
+				USE_WX=3.2+ \
 				WX_COMPS="wx"
 
 .include <bsd.port.pre.mk>
