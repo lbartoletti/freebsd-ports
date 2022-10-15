@@ -21,9 +21,7 @@ USE_GITHUB=	yes
 GH_PROJECT=	otp
 USE_GL=		gl glu
 USE_PERL5=	build
-USE_WX=		3.1+
-
-WX_COMPS=	wx
+USE_WX=		3.2+
 
 GNU_CONFIGURE=		yes
 CONFIGURE_ARGS+=	--enable-threads \
