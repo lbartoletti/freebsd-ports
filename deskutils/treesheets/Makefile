@@ -14,7 +14,7 @@ USES=		cmake compiler:c++17-lang desktop-file-utils gettext gnome
 USE_GITHUB=	yes
 GH_ACCOUNT=	aardappel
 GH_TAGNAME=	3074091860
-USE_WX=		3.1
+USE_WX=		3.2
 
 PORTSCOUT=	ignore:1 # upstream uses CI run ids as releases
 
