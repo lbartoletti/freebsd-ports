@@ -13,7 +13,9 @@ WWW=		https://www.qt.io/
 
 BUILD_DEPENDS=	xml:textproc/xmlstarlet \
 		${LOCALBASE}/include/vulkan/vulkan.h:graphics/vulkan-headers \
-		${LOCALBASE}/include/linux/input.h:devel/evdev-proto
+		${LOCALBASE}/include/linux/input.h:devel/evdev-proto \
+		${LOCALBASE}/lib/libodbc.so:databases/unixODBC \
+		pg_config:databases/postgresql${PGSQL_DEFAULT}-client
 LIB_DEPENDS=	\
 		libatk-1.0.so:accessibility/at-spi2-core \
 		libatk-bridge-2.0.so:accessibility/at-spi2-core \
@@ -69,7 +71,8 @@ USE_GNOME=	cairo gdkpixbuf2 glib20 gtk30 pango
 USE_XORG=	ice pixman sm x11 xau xcb xcomposite xcursor xdamage xdmcp \
 		xext xfixes xi xinerama xrandr xrender
 CMAKE_ON=	QT_AVOID_CMAKE_ARCHIVING_API \
-		QT_FIND_ALL_PACKAGES_ALWAYS
+		QT_FIND_ALL_PACKAGES_ALWAYS \
+		FEATURE_sql_psql
 CMAKE_OFF=	QT_FEATURE_eglfs \
 		QT_FEATURE_gssapi
 SHEBANG_FILES=	${WRKSRC}/mkspecs/features/uikit/device_destinations.sh \
@@ -108,8 +111,6 @@ ODBC_CMAKE_OFF=		-DFEATURE_sql_odbc=OFF
 ODBC_LIB_DEPENDS=	libodbc.so:databases/unixODBC
 
 PSQL_DESC=		PostgreSQL database support
-PSQL_CMAKE_ON=		-DFEATURE_sql_psql=ON
-PSQL_CMAKE_OFF=		-DFEATURE_sql_psql=OFF
 PSQL_USES=		pgsql
 
 SQLITE_DESC=		Sqlite database support
