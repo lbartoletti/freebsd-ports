@@ -51,7 +51,6 @@
 %%QT_INCDIR%%/QtSerialBus/qmodbusserver.h
 %%QT_INCDIR%%/QtSerialBus/qmodbustcpclient.h
 %%QT_INCDIR%%/QtSerialBus/qmodbustcpserver.h
-%%QT_INCDIR%%/QtSerialBus/qserialbusglobal.h
 %%QT_INCDIR%%/QtSerialBus/qtserialbus-config.h
 %%QT_INCDIR%%/QtSerialBus/qtserialbusexports.h
 %%QT_INCDIR%%/QtSerialBus/qtserialbusglobal.h

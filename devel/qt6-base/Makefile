@@ -76,7 +76,9 @@ SHEBANG_FILES=	${WRKSRC}/mkspecs/features/uikit/device_destinations.sh \
 		${WRKSRC}/mkspecs/features/uikit/devices.py \
 		${WRKSRC}/mkspecs/features/data/mac/objc_namespace.sh \
 		${WRKSRC}/util/android/android_emulator_launcher.sh \
-		${WRKSRC}/util/testrunner/qt-testrunner.py
+		${WRKSRC}/util/testrunner/qt-testrunner.py \
+		${WRKSRC}/util/testrunner/sanitizer-testrunner.py
+
 USE_LDCONFIG=	${PREFIX}/${QT_LIBDIR_REL}
 
 # zstd from base fails to compress files during the build (error 11: unsupported argument)
@@ -135,5 +137,6 @@ post-install:
 	while read t; do \
 		${RLN} $$t; \
 	done <${WRKDIR}/.build/user_facing_tool_links.txt
+	${STRIP_CMD} ${STAGEDIR}${QT_LIBEXECDIR}/syncqt
 
 .include <bsd.port.post.mk>

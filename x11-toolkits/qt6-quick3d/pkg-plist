@@ -236,7 +236,6 @@
 %%QT_INCDIR%%/QtQuick3DUtils/%%FULLVER%%/QtQuick3DUtils/private/qssgmesh_p.h
 %%QT_INCDIR%%/QtQuick3DUtils/%%FULLVER%%/QtQuick3DUtils/private/qssgmeshbvh_p.h
 %%QT_INCDIR%%/QtQuick3DUtils/%%FULLVER%%/QtQuick3DUtils/private/qssgmeshbvhbuilder_p.h
-%%QT_INCDIR%%/QtQuick3DUtils/%%FULLVER%%/QtQuick3DUtils/private/qssgoption_p.h
 %%QT_INCDIR%%/QtQuick3DUtils/%%FULLVER%%/QtQuick3DUtils/private/qssgplane_p.h
 %%QT_INCDIR%%/QtQuick3DUtils/%%FULLVER%%/QtQuick3DUtils/private/qssgrenderbasetypes_p.h
 %%QT_INCDIR%%/QtQuick3DUtils/%%FULLVER%%/QtQuick3DUtils/private/qssgutils_p.h

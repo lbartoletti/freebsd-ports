@@ -1,6 +1,5 @@
 %%QT_INCDIR%%/QtPdf/%%FULLVER%%/QtPdf/private/qpdfdocument_p.h
 %%QT_INCDIR%%/QtPdf/%%FULLVER%%/QtPdf/private/qpdffile_p.h
-%%QT_INCDIR%%/QtPdf/%%FULLVER%%/QtPdf/private/qpdfiohandler_p.h
 %%QT_INCDIR%%/QtPdf/%%FULLVER%%/QtPdf/private/qpdflink_p.h
 %%QT_INCDIR%%/QtPdf/%%FULLVER%%/QtPdf/private/qpdflinkmodel_p.h
 %%QT_INCDIR%%/QtPdf/%%FULLVER%%/QtPdf/private/qpdflinkmodel_p_p.h

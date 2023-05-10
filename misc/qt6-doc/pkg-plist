@@ -26,7 +26,6 @@
 %%QT_DOCDIR%%/qtcmake/style/offline-simple.css
 %%QT_DOCDIR%%/qtcmake/style/offline.css
 %%QT_DOCDIR%%/qtdoc.qch
-%%QT_DOCDIR%%/qtdoc/accelerators.html
 %%QT_DOCDIR%%/qtdoc/accessibility.html
 %%QT_DOCDIR%%/qtdoc/accessible-qtquick.html
 %%QT_DOCDIR%%/qtdoc/accessible-qwidget.html
@@ -39,7 +38,6 @@
 %%QT_DOCDIR%%/qtdoc/android-building.html
 %%QT_DOCDIR%%/qtdoc/android-emojis.html
 %%QT_DOCDIR%%/qtdoc/android-getting-started.html
-%%QT_DOCDIR%%/qtdoc/android-manifest-file-configuration.html
 %%QT_DOCDIR%%/qtdoc/android-openssl-support.html
 %%QT_DOCDIR%%/qtdoc/android-platform-notes.html
 %%QT_DOCDIR%%/qtdoc/android-publishing-to-googleplay.html
@@ -58,7 +56,6 @@
 %%QT_DOCDIR%%/qtdoc/configure-options.html
 %%QT_DOCDIR%%/qtdoc/create-your-first-applications.html
 %%QT_DOCDIR%%/qtdoc/debug.html
-%%QT_DOCDIR%%/qtdoc/demos-manifest.xml
 %%QT_DOCDIR%%/qtdoc/deployment-android.html
 %%QT_DOCDIR%%/qtdoc/deployment-plugins.html
 %%QT_DOCDIR%%/qtdoc/deployment.html
@@ -90,12 +87,10 @@
 %%QT_DOCDIR%%/qtdoc/highdpi.html
 %%QT_DOCDIR%%/qtdoc/i18n-plural-rules.html
 %%QT_DOCDIR%%/qtdoc/i18n-source-translation.html
-%%QT_DOCDIR%%/qtdoc/i18n.html
 %%QT_DOCDIR%%/qtdoc/images/5OiIqFTjUZI.jpg
 %%QT_DOCDIR%%/qtdoc/images/BenchmarkDemoQt6.png
 %%QT_DOCDIR%%/qtdoc/images/accessibleobjecttree.png
 %%QT_DOCDIR%%/qtdoc/images/addalarms.png
-%%QT_DOCDIR%%/qtdoc/images/addressbookclient.png
 %%QT_DOCDIR%%/qtdoc/images/alarms2.png
 %%QT_DOCDIR%%/qtdoc/images/alarms3.png
 %%QT_DOCDIR%%/qtdoc/images/android-single-abis.png
@@ -103,7 +98,6 @@
 %%QT_DOCDIR%%/qtdoc/images/animation-examples.png
 %%QT_DOCDIR%%/qtdoc/images/applicationwindow.png
 %%QT_DOCDIR%%/qtdoc/images/arrow_bc.png
-%%QT_DOCDIR%%/qtdoc/images/authorize.png
 %%QT_DOCDIR%%/qtdoc/images/bgrContent.png
 %%QT_DOCDIR%%/qtdoc/images/btn_next.png
 %%QT_DOCDIR%%/qtdoc/images/btn_prev.png
@@ -134,7 +128,6 @@
 %%QT_DOCDIR%%/qtdoc/images/layout-examples.png
 %%QT_DOCDIR%%/qtdoc/images/logo.png
 %%QT_DOCDIR%%/qtdoc/images/mainscreen.png
-%%QT_DOCDIR%%/qtdoc/images/newcontact.png
 %%QT_DOCDIR%%/qtdoc/images/ok.png
 %%QT_DOCDIR%%/qtdoc/images/open-project.png
 %%QT_DOCDIR%%/qtdoc/images/piemenu.gif
@@ -198,60 +191,6 @@
 %%QT_DOCDIR%%/qtdoc/images/threadsandobjects.png
 %%QT_DOCDIR%%/qtdoc/images/threadvisual-example.png
 %%QT_DOCDIR%%/qtdoc/images/tool-examples.png
-%%QT_DOCDIR%%/qtdoc/images/used-in-examples/demos/calqlatr/content/images/paper-edge-left.png
-%%QT_DOCDIR%%/qtdoc/images/used-in-examples/demos/calqlatr/content/images/paper-edge-right.png
-%%QT_DOCDIR%%/qtdoc/images/used-in-examples/demos/calqlatr/content/images/paper-grip.png
-%%QT_DOCDIR%%/qtdoc/images/used-in-examples/demos/clocks/content/arrow.png
-%%QT_DOCDIR%%/qtdoc/images/used-in-examples/demos/clocks/content/background.png
-%%QT_DOCDIR%%/qtdoc/images/used-in-examples/demos/clocks/content/center.png
-%%QT_DOCDIR%%/qtdoc/images/used-in-examples/demos/clocks/content/clock-night.png
-%%QT_DOCDIR%%/qtdoc/images/used-in-examples/demos/clocks/content/clock.png
-%%QT_DOCDIR%%/qtdoc/images/used-in-examples/demos/clocks/content/hour.png
-%%QT_DOCDIR%%/qtdoc/images/used-in-examples/demos/clocks/content/minute.png
-%%QT_DOCDIR%%/qtdoc/images/used-in-examples/demos/clocks/content/quit.png
-%%QT_DOCDIR%%/qtdoc/images/used-in-examples/demos/clocks/content/second.png
-%%QT_DOCDIR%%/qtdoc/images/used-in-examples/demos/coffee/images/cup structure/coffee_cup_large.png
-%%QT_DOCDIR%%/qtdoc/images/used-in-examples/demos/coffee/images/cup structure/coffee_cup_outline.png
-%%QT_DOCDIR%%/qtdoc/images/used-in-examples/demos/coffee/images/cup structure/cup elements/coffee_cup_back.png
-%%QT_DOCDIR%%/qtdoc/images/used-in-examples/demos/coffee/images/cup structure/cup elements/coffee_cup_coverplate.png
-%%QT_DOCDIR%%/qtdoc/images/used-in-examples/demos/coffee/images/cup structure/cup elements/coffee_cup_front.png
-%%QT_DOCDIR%%/qtdoc/images/used-in-examples/demos/coffee/images/cup structure/liquids/liquid_coffee.png
-%%QT_DOCDIR%%/qtdoc/images/used-in-examples/demos/coffee/images/cup structure/liquids/liquid_foam.png
-%%QT_DOCDIR%%/qtdoc/images/used-in-examples/demos/coffee/images/cup structure/liquids/liquid_milk.png
-%%QT_DOCDIR%%/qtdoc/images/used-in-examples/demos/coffee/images/icons/coffees/Americano.png
-%%QT_DOCDIR%%/qtdoc/images/used-in-examples/demos/coffee/images/icons/coffees/Espresso.png
-%%QT_DOCDIR%%/qtdoc/images/used-in-examples/demos/coffee/images/icons/coffees/Latte.png
-%%QT_DOCDIR%%/qtdoc/images/used-in-examples/demos/coffee/images/icons/coffees/Macchiato.png
-%%QT_DOCDIR%%/qtdoc/images/used-in-examples/demos/coffee/images/icons/coffees/cappucino.png
-%%QT_DOCDIR%%/qtdoc/images/used-in-examples/demos/coffee/images/icons/contents/coffee.png
-%%QT_DOCDIR%%/qtdoc/images/used-in-examples/demos/coffee/images/icons/contents/milk.png
-%%QT_DOCDIR%%/qtdoc/images/used-in-examples/demos/coffee/images/icons/contents/sugar.png
-%%QT_DOCDIR%%/qtdoc/images/used-in-examples/demos/coffee/images/ui controls/buttons/back/white.png
-%%QT_DOCDIR%%/qtdoc/images/used-in-examples/demos/coffee/images/ui controls/buttons/go/white.png
-%%QT_DOCDIR%%/qtdoc/images/used-in-examples/demos/coffee/images/ui controls/line.png
-%%QT_DOCDIR%%/qtdoc/images/used-in-examples/demos/photosurface/resources/folder.png
-%%QT_DOCDIR%%/qtdoc/images/used-in-examples/demos/photosurface/resources/icon.png
-%%QT_DOCDIR%%/qtdoc/images/used-in-examples/demos/photoviewer/PhotoViewerCore/images/box-shadow.png
-%%QT_DOCDIR%%/qtdoc/images/used-in-examples/demos/photoviewer/PhotoViewerCore/images/busy.png
-%%QT_DOCDIR%%/qtdoc/images/used-in-examples/demos/photoviewer/PhotoViewerCore/images/cardboard.png
-%%QT_DOCDIR%%/qtdoc/images/used-in-examples/demos/rssnews/content/images/Asia.jpg
-%%QT_DOCDIR%%/qtdoc/images/used-in-examples/demos/rssnews/content/images/Business.jpg
-%%QT_DOCDIR%%/qtdoc/images/used-in-examples/demos/rssnews/content/images/Entertainment.jpg
-%%QT_DOCDIR%%/qtdoc/images/used-in-examples/demos/rssnews/content/images/Europe.jpg
-%%QT_DOCDIR%%/qtdoc/images/used-in-examples/demos/rssnews/content/images/Health.jpg
-%%QT_DOCDIR%%/qtdoc/images/used-in-examples/demos/rssnews/content/images/Politics.jpg
-%%QT_DOCDIR%%/qtdoc/images/used-in-examples/demos/rssnews/content/images/Science.jpg
-%%QT_DOCDIR%%/qtdoc/images/used-in-examples/demos/rssnews/content/images/Sports.jpg
-%%QT_DOCDIR%%/qtdoc/images/used-in-examples/demos/rssnews/content/images/Technology.jpg
-%%QT_DOCDIR%%/qtdoc/images/used-in-examples/demos/rssnews/content/images/TopStories.jpg
-%%QT_DOCDIR%%/qtdoc/images/used-in-examples/demos/rssnews/content/images/USNational.jpg
-%%QT_DOCDIR%%/qtdoc/images/used-in-examples/demos/rssnews/content/images/World.jpg
-%%QT_DOCDIR%%/qtdoc/images/used-in-examples/demos/rssnews/content/images/btn_close.png
-%%QT_DOCDIR%%/qtdoc/images/used-in-examples/demos/rssnews/content/images/busy.png
-%%QT_DOCDIR%%/qtdoc/images/used-in-examples/demos/rssnews/content/images/scrollbar.png
-%%QT_DOCDIR%%/qtdoc/images/used-in-examples/demos/stocqt/content/images/icon-left-arrow.png
-%%QT_DOCDIR%%/qtdoc/images/used-in-examples/demos/stocqt/content/images/wheel-touch.png
-%%QT_DOCDIR%%/qtdoc/images/used-in-examples/demos/stocqt/content/images/wheel.png
 %%QT_DOCDIR%%/qtdoc/images/wayland-multi-process.png
 %%QT_DOCDIR%%/qtdoc/images/wayland-single-process-develop.png
 %%QT_DOCDIR%%/qtdoc/images/wayland-single-process-eglfs.png
@@ -341,18 +280,9 @@
 %%QT_DOCDIR%%/qtdoc/qtconcurrent-mtexamples.html
 %%QT_DOCDIR%%/qtdoc/qtconcurrentexamples.html
 %%QT_DOCDIR%%/qtdoc/qtdoc-attribution-coffeeexample-titillium.html
-%%QT_DOCDIR%%/qtdoc/qtdoc-demos-addressbook-example.html
 %%QT_DOCDIR%%/qtdoc/qtdoc-demos-calqlatr-example.html
 %%QT_DOCDIR%%/qtdoc/qtdoc-demos-clocks-example.html
 %%QT_DOCDIR%%/qtdoc/qtdoc-demos-coffee-example.html
-%%QT_DOCDIR%%/qtdoc/qtdoc-demos-hangman-cmakelists-txt.html
-%%QT_DOCDIR%%/qtdoc/qtdoc-demos-hangman-example.html
-%%QT_DOCDIR%%/qtdoc/qtdoc-demos-hangman-hangman-pro.html
-%%QT_DOCDIR%%/qtdoc/qtdoc-demos-hangman-purchasing-android-src-org-qtproject-qt-android-purchasing-base64-java.html
-%%QT_DOCDIR%%/qtdoc/qtdoc-demos-hangman-purchasing-android-src-org-qtproject-qt-android-purchasing-base64decoderexception-java.html
-%%QT_DOCDIR%%/qtdoc/qtdoc-demos-hangman-purchasing-android-src-org-qtproject-qt-android-purchasing-inapppurchase-java.html
-%%QT_DOCDIR%%/qtdoc/qtdoc-demos-hangman-purchasing-android-src-org-qtproject-qt-android-purchasing-security-java.html
-%%QT_DOCDIR%%/qtdoc/qtdoc-demos-hangman-resources-qrc.html
 %%QT_DOCDIR%%/qtdoc/qtdoc-demos-photosurface-example.html
 %%QT_DOCDIR%%/qtdoc/qtdoc-demos-photoviewer-example.html
 %%QT_DOCDIR%%/qtdoc/qtdoc-demos-rssnews-example.html
@@ -372,7 +302,6 @@
 %%QT_DOCDIR%%/qtdoc/qtpurchasing-iosclasses.html
 %%QT_DOCDIR%%/qtdoc/qtquick-debugging.html
 %%QT_DOCDIR%%/qtdoc/qtquick-deployment.html
-%%QT_DOCDIR%%/qtdoc/qtquick-internationalization.html
 %%QT_DOCDIR%%/qtdoc/qtquick-performance.html
 %%QT_DOCDIR%%/qtdoc/qtquick-qml-runtime.html
 %%QT_DOCDIR%%/qtdoc/qtquick-usecase-animations.html
@@ -412,7 +341,6 @@
 %%QT_DOCDIR%%/qtdoc/tools-for-qt-widget-based-uis.html
 %%QT_DOCDIR%%/qtdoc/topics-app-development.html
 %%QT_DOCDIR%%/qtdoc/topics-core.html
-%%QT_DOCDIR%%/qtdoc/topics-data-storage.html
 %%QT_DOCDIR%%/qtdoc/topics-graphics.html
 %%QT_DOCDIR%%/qtdoc/topics-network-connectivity.html
 %%QT_DOCDIR%%/qtdoc/topics-scripting.html
