@@ -1,5 +1,5 @@
 PORTNAME=	zlib-ng
-DISTVERSION=	2.0.6
+DISTVERSION=	2.1.4
 CATEGORIES=	archivers
 
 MAINTAINER=	lbartoletti@FreeBSD.org
@@ -12,6 +12,10 @@ USES=		cmake:testing
 USE_LDCONFIG=	yes
 USE_GITHUB=	yes
 
-CMAKE_TESTING_ON=	ZLIB_ENABLE_TESTS
+TEST_DEPENDS=	googletest>0:devel/googletest
+
+CMAKE_OFF=		WITH_GTEST
+CMAKE_TESTING_ON=	ZLIB_ENABLE_TESTS \
+			WITH_GTEST
 
 .include <bsd.port.mk>
