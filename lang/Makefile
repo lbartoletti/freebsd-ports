@@ -187,6 +187,7 @@
     SUBDIR += luajit
     SUBDIR += luajit-openresty
     SUBDIR += malbolge
+    SUBDIR += marksman
     SUBDIR += maude
     SUBDIR += mawk
     SUBDIR += mdk
