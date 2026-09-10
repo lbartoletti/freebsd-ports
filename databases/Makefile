@@ -680,6 +680,7 @@
     SUBDIR += plpgsql_check
     SUBDIR += pointcloud
     SUBDIR += postgis-jdbc
+    SUBDIR += postgis-tiger_geocoder
     SUBDIR += postgis33
     SUBDIR += postgis34
     SUBDIR += postgis35
