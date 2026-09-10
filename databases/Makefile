@@ -684,6 +684,7 @@
     SUBDIR += postgis34
     SUBDIR += postgis35
     SUBDIR += postgis36
+    SUBDIR += postgis37
     SUBDIR += postgresql-idn
     SUBDIR += postgresql-jdbc
     SUBDIR += postgresql-libpgeasy
